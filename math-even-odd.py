@@ -13,6 +13,6 @@ else:
 if Number > 0:
     print(f"Given number {Number} is Postive number.")
 elif Number < 0:
-    print(f"Given number {Number} is Negitive number.")
+    print(f"Given number {Number} is negative number.")
 else:
     print(f"Given number {Number} is Zero.")
