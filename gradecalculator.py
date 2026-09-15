@@ -10,7 +10,7 @@ user_grade = input('Please Enter your Grade: ')
 
 if user_grade.isnumeric():
     score = int(user_grade)
-    if score >= 100 or score <= 0: 
+    if score > 100 or score < 0:
         print("Error: Grade must be between 0 and 100.")
     elif score >= 90:
         print("Grade: A")
@@ -20,5 +20,7 @@ if user_grade.isnumeric():
         print("Grade: C")
     elif score >= 60:
         print("Grade: D")
+    else:
+        print("Grade: Fail")
 else:
-    print('error')
+    print('Error: Please enter a valid number.')
