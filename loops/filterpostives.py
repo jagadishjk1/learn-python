@@ -4,13 +4,13 @@ import random
 
 num_rand = random.sample(range(-45, 51), 10)
 print(num_rand)
-postive_list = []
+positive_list = []
 count = 0
 
 for n in num_rand:
     if n > 0:
-        postive_list.append(n)
+        positive_list.append(n)
         count += 1
 
-print(f"postive list: {postive_list}")
-print(f"total postive number in the list: {len(postive_list)}")
+print(f"positive list: {positive_list}")
+print(f"total positive number in the list: {len(positive_list)}")
