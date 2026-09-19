@@ -10,8 +10,6 @@ reversed.
 user_sentence = input("Please provide the sentence to be reversed: ")
 sentence_list = user_sentence.split()
 reversed_word_list = []
-# new_sentence = ""
-new_sentence = " ".join(reversed_word_list)
 
 #Loop for reversing the word
 for word in sentence_list:

@@ -8,6 +8,7 @@ max/min task earlier (track the longest seen so far as you go).
 """
 sentence_input = input("Enter the sentence you want to process: ")
 sentence_list = sentence_input.split()
+
 # print(sentence_list)
 # print(len(sentence_list[1]))
 
@@ -20,3 +21,4 @@ for word in sentence_list:
         longest_word = word
 
 print(f"The longest word in the sentence is: {longest_word} with {max_length} letters.")
+
